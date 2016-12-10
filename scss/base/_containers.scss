@@ -1,39 +1,75 @@
+//Card 1 Begin
+
 .card1 {
   @extend %card;
+  background-color: hsla(149, 88%, 12%, .8);
 }
 
 .card1:after {
-  background: url('../img/sixfeetunder.jpg');
+  @include background(url('#{$path-img}/sixfeetunder.jpg'));
   background-size: cover;
   @extend %card-background;
 }
 
-.main-photo {
-  background: url('../img/sixfeetunder.jpg') no-repeat center;
+.main-photo1 {
+  @include background(url('#{$path-img}/sixfeetunder.jpg')no-repeat center);
   background-size: cover;
   @extend %main-photo;
 }
 
-.buttons {
-  list-style: none;
-  padding: 1em 0;
-  li {
-    display: inline;
-    @include button(pill, $white);
-  }
+//Card 2 Begin
+
+.card2 {
+  @extend %card;
+  background-color: hsla(215, 88%, 3%, .8);
 }
 
-.footer {
-  border-top: .1em solid $white;
-  list-style: none;
-  padding: 1em 0 0;
-  li {
-    display: inline;
-    &:nth-of-type(2) {
-      float: right;
-    }
-  }
-  .fa {
-    padding-right: 1em;
-  }
+.card2:after {
+  @include background(url('#{$path-img}/leftovers.jpg'));
+  background-size: cover;
+  @extend %card-background;
+}
+
+.main-photo2 {
+  @include background(url('#{$path-img}/leftovers.jpg')no-repeat center);
+  background-size: cover;
+  @extend %main-photo;
+}
+
+//Card 3 Begin
+
+.card3 {
+  @extend %card;
+  background-color: hsla(343, 88%, 15%, .8);
+}
+
+.card3:after {
+  @include background(url('#{$path-img}/boardwalk.jpg'));
+  background-size: cover;
+  @extend %card-background;
+}
+
+.main-photo3 {
+  @include background(url('#{$path-img}/boardwalk.jpg')no-repeat center);
+  background-size: cover;
+  @extend %main-photo;
+}
+
+//Card 4 Begin
+
+.card4 {
+  @extend %card;
+  background-color: hsla(213, 88%, 20%, .8);
+}
+
+.card4:after {
+  @include background(url('#{$path-img}/westworld.jpg'));
+  background-size: cover;
+  @extend %card-background;
+}
+
+.main-photo4 {
+  @include background(url('#{$path-img}/westworld.jpg')no-repeat center);
+  background-size: cover;
+  @extend %main-photo;
 }

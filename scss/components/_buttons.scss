@@ -1,0 +1,10 @@
+//Buttons
+
+.buttons {
+  list-style: none;
+  padding: .7em 0;
+  li {
+    display: inline;
+    @include button(pill, $white);
+  }
+}

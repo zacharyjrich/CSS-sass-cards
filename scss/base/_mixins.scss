@@ -1,0 +1,6 @@
+@mixin background($background) {
+  -webkit-background: $background;
+     -moz-background: $background;
+      -ms-background: $background;
+          background: $background;
+}
