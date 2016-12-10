@@ -1,3 +1,15 @@
 .card1 {
-  
+  @extend %card;
+}
+
+.card1:after {
+  background: url('../img/sixfeetunder.jpg');
+  background-size: cover;
+  @extend %card-background;
+}
+
+.main-photo {
+  background: url('../img/sixfeetunder.jpg') no-repeat center;
+  background-size: cover;
+  @extend %main-photo;
 }

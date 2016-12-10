@@ -5,8 +5,40 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+.card1:after {
+  content: '';
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
+
+.card1 {
+  padding: 1em;
+  height: 40em;
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden; }
+
+.main-photo {
+  height: 15em;
+  width: 100%;
+  border: .3em solid white;
+  border-radius: .4em; }
+
 body {
   margin: 0;
-  background: lightblue; }
+  background-color: grey; }
+
+.card1:after {
+  background: url("../img/sixfeetunder.jpg");
+  background-size: cover; }
+
+.main-photo {
+  background: url("../img/sixfeetunder.jpg") no-repeat center;
+  background-size: cover; }
 
 /*# sourceMappingURL=application.css.map */

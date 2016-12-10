@@ -3,3 +3,30 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
+
+%card-background {
+  content: '';
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+%card {
+  padding: 1em;
+  height: 40em;
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+%main-photo {
+  height: 15em;
+  width: 100%;
+  border: .3em solid white;
+  border-radius: .4em;
+}
