@@ -24,13 +24,11 @@
 
 .card2:after {
   @include background(url('#{$path-img}/leftovers.jpg'));
-  background-size: cover;
   @extend %card-background;
 }
 
 .main-photo2 {
   @include background(url('#{$path-img}/leftovers.jpg')no-repeat center);
-  background-size: cover;
   @extend %main-photo;
 }
 
@@ -43,13 +41,11 @@
 
 .card3:after {
   @include background(url('#{$path-img}/boardwalk.jpg'));
-  background-size: cover;
   @extend %card-background;
 }
 
 .main-photo3 {
   @include background(url('#{$path-img}/boardwalk.jpg')no-repeat center);
-  background-size: cover;
   @extend %main-photo;
 }
 
@@ -62,13 +58,11 @@
 
 .card4:after {
   @include background(url('#{$path-img}/westworld.jpg'));
-  background-size: cover;
   @extend %card-background;
 }
 
 .main-photo4 {
   @include background(url('#{$path-img}/westworld.jpg')no-repeat center);
-  background-size: cover;
   @extend %main-photo;
 }
 
