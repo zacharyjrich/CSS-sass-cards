@@ -1,6 +1,6 @@
 # Cards with Sass
 
-#### CSS Week 2 Epicodus Project, 12.9.2016
+#### CSS Week 3 Epicodus Project, 12.9.2016
 
 #### By Zachary Richards
 
