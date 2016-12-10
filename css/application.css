@@ -40,16 +40,10 @@ body {
   background-color: rgba(4, 58, 30, 0.8); }
 
 .card1:after {
-  -webkit-background: url("../img/sixfeetunder.jpg");
-  -moz-background: url("../img/sixfeetunder.jpg");
-  -ms-background: url("../img/sixfeetunder.jpg");
   background: url("../img/sixfeetunder.jpg");
   background-size: cover; }
 
 .main-photo1 {
-  -webkit-background: url("../img/sixfeetunder.jpg") no-repeat center;
-  -moz-background: url("../img/sixfeetunder.jpg") no-repeat center;
-  -ms-background: url("../img/sixfeetunder.jpg") no-repeat center;
   background: url("../img/sixfeetunder.jpg") no-repeat center;
   background-size: cover; }
 
@@ -57,52 +51,43 @@ body {
   background-color: rgba(1, 7, 14, 0.8); }
 
 .card2:after {
-  -webkit-background: url("../img/leftovers.jpg");
-  -moz-background: url("../img/leftovers.jpg");
-  -ms-background: url("../img/leftovers.jpg");
   background: url("../img/leftovers.jpg");
+  background-size: cover;
   background-size: cover; }
 
 .main-photo2 {
-  -webkit-background: url("../img/leftovers.jpg") no-repeat center;
-  -moz-background: url("../img/leftovers.jpg") no-repeat center;
-  -ms-background: url("../img/leftovers.jpg") no-repeat center;
   background: url("../img/leftovers.jpg") no-repeat center;
+  background-size: cover;
   background-size: cover; }
 
 .card3 {
   background-color: rgba(72, 5, 24, 0.8); }
 
 .card3:after {
-  -webkit-background: url("../img/boardwalk.jpg");
-  -moz-background: url("../img/boardwalk.jpg");
-  -ms-background: url("../img/boardwalk.jpg");
   background: url("../img/boardwalk.jpg");
+  background-size: cover;
   background-size: cover; }
 
 .main-photo3 {
-  -webkit-background: url("../img/boardwalk.jpg") no-repeat center;
-  -moz-background: url("../img/boardwalk.jpg") no-repeat center;
-  -ms-background: url("../img/boardwalk.jpg") no-repeat center;
   background: url("../img/boardwalk.jpg") no-repeat center;
+  background-size: cover;
   background-size: cover; }
 
 .card4 {
   background-color: rgba(6, 47, 96, 0.8); }
 
 .card4:after {
-  -webkit-background: url("../img/westworld.jpg");
-  -moz-background: url("../img/westworld.jpg");
-  -ms-background: url("../img/westworld.jpg");
   background: url("../img/westworld.jpg");
+  background-size: cover;
   background-size: cover; }
 
 .main-photo4 {
-  -webkit-background: url("../img/westworld.jpg") no-repeat center;
-  -moz-background: url("../img/westworld.jpg") no-repeat center;
-  -ms-background: url("../img/westworld.jpg") no-repeat center;
   background: url("../img/westworld.jpg") no-repeat center;
+  background-size: cover;
   background-size: cover; }
+
+.question {
+  height: 13em; }
 
 .buttons {
   list-style: none;

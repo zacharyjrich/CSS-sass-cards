@@ -7,13 +7,11 @@
 
 .card1:after {
   @include background(url('#{$path-img}/sixfeetunder.jpg'));
-  background-size: cover;
   @extend %card-background;
 }
 
 .main-photo1 {
   @include background(url('#{$path-img}/sixfeetunder.jpg')no-repeat center);
-  background-size: cover;
   @extend %main-photo;
 }
 
@@ -72,4 +70,8 @@
   @include background(url('#{$path-img}/westworld.jpg')no-repeat center);
   background-size: cover;
   @extend %main-photo;
+}
+
+.question {
+  height: 13em;
 }
