@@ -13,3 +13,27 @@
   background-size: cover;
   @extend %main-photo;
 }
+
+.buttons {
+  list-style: none;
+  padding: 1em 0;
+  li {
+    display: inline;
+    @include button(pill, $white);
+  }
+}
+
+.footer {
+  border-top: .1em solid $white;
+  list-style: none;
+  padding: 1em 0 0;
+  li {
+    display: inline;
+    &:nth-of-type(2) {
+      float: right;
+    }
+  }
+  .fa {
+    padding-right: 1em;
+  }
+}

@@ -13,11 +13,12 @@
   right: 0;
   position: absolute;
   z-index: -1;
+  filter: blur(5px);
 }
 
 %card {
-  padding: 1em;
-  height: 40em;
+  padding: 2em;
+  height: 42em;
   width: 100%;
   display: block;
   position: relative;

@@ -1,1 +1,24 @@
-$background-color: grey;
+// Descriptive color variables
+
+$white          : #fff;
+$black          : #000;
+$grey           : #878787;
+
+
+// Functional color variables
+
+$background-color: $grey;
+
+// Font stacks
+
+$stack-sans : 'Raleway', sans-serif;;
+
+// Asset paths
+
+$path-img  : '../img';
+$path-font : '../fonts';
+
+// Media query breakpoints
+
+$brk-narrow : '(max-width: 768px)';
+$brk-wide   : '(max-width: 1024px)';
