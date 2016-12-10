@@ -1,1 +1,10 @@
+*,
+*::before,
+*::after {
+  @extend %border-box;
+}
 
+body {
+  margin: 0;
+  background: lightblue;
+}
