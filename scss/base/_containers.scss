@@ -2,7 +2,7 @@
 
 .card1 {
   @extend %card;
-  background-color: hsla(149, 88%, 12%, .8);
+  background-color: rgba($dark-green, .8);
 }
 
 .card1:after {
@@ -19,7 +19,7 @@
 
 .card2 {
   @extend %card;
-  background-color: hsla(215, 88%, 3%, .8);
+  background-color: rgba($black, .8);
 }
 
 .card2:after {
@@ -36,7 +36,7 @@
 
 .card3 {
   @extend %card;
-  background-color: hsla(343, 88%, 15%, .8);
+  background-color: rgba($dark-purple, .8);
 }
 
 .card3:after {
@@ -53,7 +53,7 @@
 
 .card4 {
   @extend %card;
-  background-color: hsla(213, 88%, 20%, .8);
+  background-color: rgba($dark-blue, .8);
 }
 
 .card4:after {

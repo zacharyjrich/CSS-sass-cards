@@ -28,7 +28,7 @@
 .main-photo1, .main-photo2, .main-photo3, .main-photo4 {
   height: 15em;
   width: 100%;
-  border: .3em solid white;
+  border: 0.3em solid #adadad;
   border-radius: .4em; }
 
 body {
@@ -37,7 +37,7 @@ body {
   font-family: "Raleway", sans-serif; }
 
 .card1 {
-  background-color: rgba(4, 58, 30, 0.8); }
+  background-color: rgba(2, 27, 14, 0.8); }
 
 .card1:after {
   background: url("../img/sixfeetunder.jpg");
@@ -48,7 +48,7 @@ body {
   background-size: cover; }
 
 .card2 {
-  background-color: rgba(1, 7, 14, 0.8); }
+  background-color: rgba(0, 0, 0, 0.8); }
 
 .card2:after {
   background: url("../img/leftovers.jpg");
@@ -59,7 +59,7 @@ body {
   background-size: cover; }
 
 .card3 {
-  background-color: rgba(72, 5, 24, 0.8); }
+  background-color: rgba(113, 10, 22, 0.8); }
 
 .card3:after {
   background: url("../img/boardwalk.jpg");
@@ -70,7 +70,7 @@ body {
   background-size: cover; }
 
 .card4 {
-  background-color: rgba(6, 47, 96, 0.8); }
+  background-color: rgba(7, 16, 80, 0.8); }
 
 .card4:after {
   background: url("../img/westworld.jpg");

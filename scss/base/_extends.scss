@@ -29,6 +29,6 @@
 %main-photo {
   height: 15em;
   width: 100%;
-  border: .3em solid white;
+  border: .3em solid lighten($grey, 15%);
   border-radius: .4em;
 }
