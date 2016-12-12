@@ -6,7 +6,7 @@
 
 %card-background {
   content: '';
-  opacity: 0.5;
+  opacity: 0.8;
   top: 0;
   left: 0;
   bottom: 0;
@@ -17,13 +17,27 @@
 }
 
 %card {
+  .content {
+    height: 15em;
+  }
+
   padding: 2em;
-  height: 42em;
+  height: 44em;
   width: 100%;
-  display: block;
   position: relative;
   overflow: hidden;
-  margin-bottom: 2em;
+  @media #{$med-screen} {
+    width: 50%;
+    float: left;
+    p {
+      font-size: .9em;
+    }
+  }
+  @media #{$lg-screen} {
+    width: 25%;
+    font-size: 1em;
+    padding: 1.5em;
+  }
 }
 
 %main-photo {

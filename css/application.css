@@ -7,7 +7,7 @@
 
 .card1:after, .card2:after, .card3:after, .card4:after {
   content: '';
-  opacity: 0.5;
+  opacity: 0.8;
   top: 0;
   left: 0;
   bottom: 0;
@@ -18,12 +18,23 @@
 
 .card1, .card2, .card3, .card4 {
   padding: 2em;
-  height: 42em;
+  height: 44em;
   width: 100%;
-  display: block;
   position: relative;
-  overflow: hidden;
-  margin-bottom: 2em; }
+  overflow: hidden; }
+  .card1 .content, .card2 .content, .card3 .content, .card4 .content {
+    height: 15em; }
+  @media (min-width: 700px) {
+    .card1, .card2, .card3, .card4 {
+      width: 50%;
+      float: left; }
+      .card1 p, .card2 p, .card3 p, .card4 p {
+        font-size: .9em; } }
+  @media (min-width: 1280px) {
+    .card1, .card2, .card3, .card4 {
+      width: 25%;
+      font-size: 1em;
+      padding: 1.5em; } }
 
 .card1 .main-photo1, .card2 .main-photo2, .card3 .main-photo3, .card4 .main-photo4 {
   height: 15em;
@@ -35,7 +46,8 @@
 body {
   margin: 0;
   color: #fff;
-  font-family: "Raleway", sans-serif; }
+  font-family: "Raleway", sans-serif;
+  background-color: #fff; }
 
 .card1 {
   background-color: rgba(2, 27, 14, 0.8); }
@@ -72,9 +84,6 @@ body {
   .card4 .main-photo4 {
     background: url("../img/westworld.jpg") no-repeat center;
     background-size: cover; }
-
-.question {
-  height: 13em; }
 
 .buttons {
   list-style: none;
