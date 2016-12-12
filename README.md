@@ -6,7 +6,7 @@
 
 ## Description
 
-This project will create a responsive layout of cards with varying colors and transparent background images. It should be responsive at at least one breakpoint.
+This project will create a responsive layout of cards with varying colors and transparent background images utilizing SASS.
 
 ## Objectives
 
@@ -47,8 +47,6 @@ CSS
 SASS
 
 Bourbon
-
-Neat
 
 ### License
 
