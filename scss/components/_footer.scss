@@ -5,11 +5,13 @@
   border-top: .1em solid $white;
   list-style: none;
   padding: 1.5em 0 0;
+  display: flex;
+  justify-content: space-between;
   li {
     display: inline;
-    &:nth-of-type(2) {
-      float: right;
-    }
+    // &:nth-of-type(2) {
+    //   float: right;
+    // }
   }
   .fa {
     padding-right: 1em;
