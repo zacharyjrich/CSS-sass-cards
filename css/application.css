@@ -46,9 +46,7 @@ body {
   margin: 0;
   color: #fff;
   font-family: "Raleway", sans-serif;
-  background-color: #fff;
-  display: flex;
-  flex-flow: wrap; }
+  background-color: #fff; }
 
 .card1 {
   background-color: rgba(2, 27, 14, 0.8); }
