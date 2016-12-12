@@ -3,68 +3,72 @@
 .card1 {
   @extend %card;
   background-color: rgba($dark-green, .8);
+
+  &:after {
+    @include background(url('#{$path-img}/sixfeetunder.jpg'));
+    @extend %card-background;
+  }
+
+  .main-photo1 {
+    @include background(url('#{$path-img}/sixfeetunder.jpg')no-repeat center);
+    @extend %main-photo;
+  }
 }
 
-.card1:after {
-  @include background(url('#{$path-img}/sixfeetunder.jpg'));
-  @extend %card-background;
-}
-
-.main-photo1 {
-  @include background(url('#{$path-img}/sixfeetunder.jpg')no-repeat center);
-  @extend %main-photo;
-}
 
 //Card 2 Begin
 
 .card2 {
   @extend %card;
   background-color: rgba($black, .8);
+
+  &:after {
+    @include background(url('#{$path-img}/leftovers.jpg'));
+    @extend %card-background;
+  }
+
+  .main-photo2 {
+    @include background(url('#{$path-img}/leftovers.jpg')no-repeat center);
+    @extend %main-photo;
+  }
 }
 
-.card2:after {
-  @include background(url('#{$path-img}/leftovers.jpg'));
-  @extend %card-background;
-}
-
-.main-photo2 {
-  @include background(url('#{$path-img}/leftovers.jpg')no-repeat center);
-  @extend %main-photo;
-}
 
 //Card 3 Begin
 
 .card3 {
   @extend %card;
   background-color: rgba($dark-purple, .8);
+
+  &:after {
+    @include background(url('#{$path-img}/boardwalk.jpg'));
+    @extend %card-background;
+  }
+
+  .main-photo3 {
+    @include background(url('#{$path-img}/boardwalk.jpg')no-repeat center);
+    @extend %main-photo;
+  }
 }
 
-.card3:after {
-  @include background(url('#{$path-img}/boardwalk.jpg'));
-  @extend %card-background;
-}
-
-.main-photo3 {
-  @include background(url('#{$path-img}/boardwalk.jpg')no-repeat center);
-  @extend %main-photo;
-}
 
 //Card 4 Begin
 
 .card4 {
   @extend %card;
   background-color: rgba($dark-blue, .8);
+
+  &:after {
+    @include background(url('#{$path-img}/westworld.jpg'));
+    @extend %card-background;
+  }
+
+  .main-photo4 {
+    @include background(url('#{$path-img}/westworld.jpg')no-repeat center);
+    @extend %main-photo;
+  }
 }
 
-.card4:after {
-  @include background(url('#{$path-img}/westworld.jpg'));
-  @extend %card-background;
-}
-
-.main-photo4 {
-  @include background(url('#{$path-img}/westworld.jpg')no-repeat center);
-  @extend %main-photo;
-}
 
 .question {
   height: 13em;

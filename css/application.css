@@ -25,11 +25,12 @@
   overflow: hidden;
   margin-bottom: 2em; }
 
-.main-photo1, .main-photo2, .main-photo3, .main-photo4 {
+.card1 .main-photo1, .card2 .main-photo2, .card3 .main-photo3, .card4 .main-photo4 {
   height: 15em;
   width: 100%;
-  border: 0.3em solid #adadad;
-  border-radius: .4em; }
+  border: 1px solid #a1a1a1;
+  border-radius: 1em;
+  box-shadow: 0 0 3px 2px #878787; }
 
 body {
   margin: 0;
@@ -38,47 +39,39 @@ body {
 
 .card1 {
   background-color: rgba(2, 27, 14, 0.8); }
-
-.card1:after {
-  background: url("../img/sixfeetunder.jpg");
-  background-size: cover; }
-
-.main-photo1 {
-  background: url("../img/sixfeetunder.jpg") no-repeat center;
-  background-size: cover; }
+  .card1:after {
+    background: url("../img/sixfeetunder.jpg");
+    background-size: cover; }
+  .card1 .main-photo1 {
+    background: url("../img/sixfeetunder.jpg") no-repeat center;
+    background-size: cover; }
 
 .card2 {
   background-color: rgba(0, 0, 0, 0.8); }
-
-.card2:after {
-  background: url("../img/leftovers.jpg");
-  background-size: cover; }
-
-.main-photo2 {
-  background: url("../img/leftovers.jpg") no-repeat center;
-  background-size: cover; }
+  .card2:after {
+    background: url("../img/leftovers.jpg");
+    background-size: cover; }
+  .card2 .main-photo2 {
+    background: url("../img/leftovers.jpg") no-repeat center;
+    background-size: cover; }
 
 .card3 {
   background-color: rgba(113, 10, 22, 0.8); }
-
-.card3:after {
-  background: url("../img/boardwalk.jpg");
-  background-size: cover; }
-
-.main-photo3 {
-  background: url("../img/boardwalk.jpg") no-repeat center;
-  background-size: cover; }
+  .card3:after {
+    background: url("../img/boardwalk.jpg");
+    background-size: cover; }
+  .card3 .main-photo3 {
+    background: url("../img/boardwalk.jpg") no-repeat center;
+    background-size: cover; }
 
 .card4 {
   background-color: rgba(7, 16, 80, 0.8); }
-
-.card4:after {
-  background: url("../img/westworld.jpg");
-  background-size: cover; }
-
-.main-photo4 {
-  background: url("../img/westworld.jpg") no-repeat center;
-  background-size: cover; }
+  .card4:after {
+    background: url("../img/westworld.jpg");
+    background-size: cover; }
+  .card4 .main-photo4 {
+    background: url("../img/westworld.jpg") no-repeat center;
+    background-size: cover; }
 
 .question {
   height: 13em; }

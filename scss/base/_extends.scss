@@ -29,6 +29,7 @@
 %main-photo {
   height: 15em;
   width: 100%;
-  border: .3em solid lighten($grey, 15%);
-  border-radius: .4em;
+  border: 1px solid lighten($grey, 10%);
+  border-radius: 1em;
+  box-shadow: 0 0 3px 2px $grey;
 }
