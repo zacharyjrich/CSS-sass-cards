@@ -28,7 +28,9 @@ This project will create a responsive layout of cards with varying colors and tr
 
 ## Setup/Installation Requirements
 
-1) Clone this repository https://github.com/zacharyjrich/CSS-sass-cards
+1) Check it out here https://zacharyjrich.github.io/CSS-sass-cards
+
+2) Or clone this repository https://github.com/zacharyjrich/CSS-sass-cards
 
 ## Known Bugs
 
